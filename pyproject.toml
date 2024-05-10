@@ -14,11 +14,11 @@ classifiers = [
 ]
 dependencies = [
     "torch>=2.0,<3.0", "torchvision>=0.15",
-    "transformers>=4.36,<5.0", "tokenizers>=0.15.2", "sentencepiece==0.1.99", "shortuuid",
+    "transformers>=4.36,<5.0", "tokenizers>=0.15.2", "sentencepiece", "shortuuid",
     "accelerate>=0.27", "peft>=0.5", "bitsandbytes>=0.41",
     "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn>=1.2,<2.0",
     "gradio==3.35.2", "gradio_client==0.2.9",
-    "requests", "httpx==0.24.0", "uvicorn", "fastapi",
+    "requests", "httpx", "uvicorn", "fastapi",
     "einops==0.6.1", "einops-exts==0.0.4", "timm==0.9.12",
     "openpyxl==3.1.2", "pytorchvideo==0.1.5", "decord==0.6.0",
     "datasets", "openai>=1.8,<2.0", "webdataset==0.2.86",
